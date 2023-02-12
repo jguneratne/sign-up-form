@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(211, 211, 211);
+}
+
+
+
+h1 {
+    background-color: aquamarine;
+}
+
+
+
+
+
+
+
+.footer {
+    height: 40px;
+    background-color: rgb(49, 163, 244);
+    font-family: sans-serif;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    font-size: 14px;
+    margin-top: auto;
+    width: 100%;
+
+}
+
+.my-info,
+.imgAttrib {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 6px;
+    height: 28px;
+}
+
+.github-logo {
+    width: 30px;
+    margin-top: 4px;
+    margin-left: 15px;
+}
