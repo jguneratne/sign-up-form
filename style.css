@@ -14,6 +14,16 @@ body {
     background-color: rgb(211, 211, 211);
 }
 
+.photo-container {
+    width: 60vw;
+    height: 94vmin;
+    background-color: #20b559;
+    background-image: url(images/Guneratne_20190524_5005681_01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
 
 
 h1 {
@@ -44,7 +54,6 @@ h1 {
     align-items: center;
     justify-content: center;
     width: 100%;
-    padding: 6px;
     height: 28px;
 }
 
