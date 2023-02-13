@@ -8,7 +8,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    text-align: center;
     align-items: center;
     background-color: rgb(211, 211, 211);
 }
@@ -21,7 +20,8 @@ body {
 }
 
 .photo-container {
-    flex-shrink: none;
+    display: flex;
+    flex-direction: column;
     min-width: 50%;
     height: 94vmin;
     /* border: 2px solid purple; */
@@ -37,6 +37,15 @@ body {
     margin-top: 28px;
     background-color: rgba(255, 255, 255, 0.1);
     background-blend-mode: lighten;
+}
+
+.photo-cred {
+    font-size: 10px;
+    color: white;
+    margin-top: auto;
+    text-align: right;
+    margin-right: 8px;
+    margin-bottom: 10px;
 }
 
 .form-section {
