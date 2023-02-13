@@ -17,39 +17,43 @@ body {
     display: flex;
     width: 80vw;
     height: 94vmin;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .photo-container {
     flex-shrink: none;
     min-width: 50%;
     height: 94vmin;
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     background-color: #20b559;
     background-image: url(images/Guneratne_20190524_5005681_cropped.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.form-container {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    height: 94vmin;
-    border: 2px solid turquoise;
+.logo-container {
+    width: 100%;
+    height: 90px;
+    margin-top: 28px;
+    background-color: rgba(255, 255, 255, 0.1);
+    background-blend-mode: lighten;
 }
 
-
-
-/* .photo-container {
-    width: 600px;
+.form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 30px;
+    width: 50%;
     height: 94vmin;
-    background-color: #20b559;
-    background-image: url(images/Guneratne_20190524_5005681_01.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-} */
+    /* border: 2px solid turquoise; */
+}
+
+.form-box {
+    background-color: aliceblue;
+    height: min-content;
+}
 
 
 
