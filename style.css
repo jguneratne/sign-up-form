@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(211, 211, 211);
+    background-color: #f3f5f6;
 }
 
 .layout {
@@ -54,7 +54,7 @@ body {
     align-items: flex-start;
     width: 50%;
     height: 94vmin;
-    background-color: lightsteelblue;
+    background-color: #8da3bb;
     /* border: 2px solid turquoise; */
 }
 
@@ -65,7 +65,7 @@ body {
 }
 
 .form-box {
-    background-color: aliceblue;
+    background-color: #968e8e;
     height: min-content;
     width: 100%;
     margin-top: 2rem;
@@ -93,10 +93,15 @@ fieldset {
     gap: 4rem;
 }
 
+input {
+    width: 12rem;
+}
+
 
 button[type=submit] {
     margin-left: 2rem;
     margin-bottom: 1rem;
+    background-color: #747833;
 }
 
 
@@ -105,7 +110,7 @@ button[type=submit] {
 
 .footer {
     height: 2.5rem;
-    background-color: rgb(49, 163, 244);
+    background-color: #d6d7dc;
     font-family: sans-serif;
     text-align: center;
     font-family: 'Space Mono', monospace;
