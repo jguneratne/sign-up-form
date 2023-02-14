@@ -154,6 +154,7 @@ h4 {
     font-family: 'Tajawal';
     font-weight: 600;
     font-size: 1.2rem;
+    color: #202426;
 }
 
 fieldset {
@@ -185,6 +186,9 @@ input:focus {
 
 }
 
+label {
+    color: #d6d7dc;
+}
 
 button[type=submit] {
     margin-left: 2rem;
