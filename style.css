@@ -69,12 +69,27 @@ body {
     width: 100%;
 }
 
+.name,
+.contact,
+.pword {
+    display: flex;
+    flex-direction: column;
+}
+
+
 h4,
 fieldset {
     margin-left: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
+    border: none;
 }
+
+fieldset {
+    display: flex;
+    gap: 40px;
+}
+
 
 button[type=submit] {
     margin-left: 30px;
