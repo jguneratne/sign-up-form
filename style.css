@@ -1,3 +1,40 @@
+@font-face {
+    font-family: 'Zilla Slab';
+    font-weight: 400;
+    src: url(fonts/zillaslab-regular-webfont.woff2) format('woff2'),
+        url(fonts/zillaslab-regular-webfont.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Zilla Slab';
+    font-weight: 300;
+    src: url(fonts/zillaslab-light-webfont.woff2) format('woff2'),
+        url(fonts/zillaslab-light-webfont.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Zilla Slab';
+    font-style: italic;
+    font-weight: 300;
+    src: url(fonts/zillaslab-lightitalic-webfont.woff2) format('woff2'),
+        url(fonts/zillaslab-lightitalic-webfont.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Zilla Slab';
+    font-weight: 500;
+    src: url(fonts/zillaslab-semibold-webfont.woff2) format('woff2'),
+        url(fonts/zillaslab-semibold-webfont.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Zilla Slab';
+    font-style: italic;
+    font-weight: 500;
+    src: url(fonts/zillaslab-semibolditalic-webfont.woff2) format('woff2'),
+        url(fonts/zillaslab-semibolditalic-webfont.woff) format('woff');
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -40,6 +77,8 @@ body {
 }
 
 .photo-cred {
+    font-family: "Zilla Slab";
+    font-weight: light;
     font-size: .7rem;
     color: white;
     margin-top: auto;
@@ -62,6 +101,9 @@ body {
     margin-left: 2rem;
     margin-bottom: 1rem;
     width: 50ch;
+    font-family: 'Zilla Slab';
+    font-weight: 400;
+    font-size: 1.1rem;
 }
 
 .form-box {
@@ -113,8 +155,9 @@ button[type=submit] {
     background-color: #d6d7dc;
     font-family: sans-serif;
     text-align: center;
-    font-family: 'Space Mono', monospace;
-    font-size: 14px;
+    font-family: 'Zilla Slab';
+    font-style: light;
+    font-size: 1rem;
     margin-top: auto;
     width: 100%;
 
