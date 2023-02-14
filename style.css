@@ -35,6 +35,27 @@
         url(fonts/zillaslab-semibolditalic-webfont.woff) format('woff');
 }
 
+@font-face {
+    font-family: 'Tajawal';
+    font-weight: 400;
+    src: url(fonts/tajawal-medium-webfont.woff2) format('woff2'),
+        url(fonts/tajawal-medium-webfont.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Tajawal';
+    font-weight: 300;
+    src: url(fonts/tajawal-light-webfont.woff2) format('woff2'),
+        url(fonts/tajawal-light-webfont.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Tajawal';
+    font-weight: 600;
+    src: url(fonts/tajawal-bold-webfont.woff2) format('woff2'),
+        url(fonts/tajawal-bold-webfont.woff) format('woff');
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -122,6 +143,18 @@ body {
     flex-direction: column;
 }
 
+h4 {
+    font-family: 'Tajawal';
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+fieldset {
+    display: flex;
+    gap: 4rem;
+    font-family: 'Tajawal';
+    font-weight: 300;
+}
 
 h4,
 fieldset {
@@ -130,13 +163,10 @@ fieldset {
     border: none;
 }
 
-fieldset {
-    display: flex;
-    gap: 4rem;
-}
-
 input {
     width: 12rem;
+    font-family: 'Tajawal';
+    font-weight: 300;
 }
 
 
