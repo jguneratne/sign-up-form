@@ -146,6 +146,10 @@ body {
     flex-direction: column;
 }
 
+.login {
+    font-size: .7rem;
+}
+
 h4 {
     font-family: 'Tajawal';
     font-weight: 600;
@@ -190,6 +194,7 @@ button[type=submit] {
     border: none;
     border-radius: 1ch;
 }
+
 
 
 
