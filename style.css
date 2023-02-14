@@ -67,7 +67,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #f3f5f6;
+    background-color: #8da3bb;
 }
 
 .layout {
@@ -114,7 +114,7 @@ body {
     align-items: flex-start;
     width: 50%;
     height: 94vmin;
-    background-color: #8da3bb;
+    background-color:  #f3f5f6;
     /* border: 2px solid turquoise; */
 }
 
@@ -128,11 +128,11 @@ body {
 }
 
 .form-box {
-    background-color: #968e8e;
+    background-color:  #818d3f;
     height: min-content;
     width: 100%;
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     padding-bottom: 1.5rem;
 }
 
@@ -173,7 +173,10 @@ input {
 button[type=submit] {
     margin-left: 2rem;
     margin-bottom: 1rem;
-    background-color: #747833;
+    background-color: #d6d7dc;
+    padding: .5rem; 
+    border: none;
+    border-radius: 1ch;
 }
 
 
