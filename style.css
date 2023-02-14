@@ -197,6 +197,8 @@ button[type=submit] {
     padding: .5rem; 
     border: none;
     border-radius: 1ch;
+    cursor: pointer;
+    box-shadow: .2rem .2rem .3rem #909ea6;
 }
 
 
