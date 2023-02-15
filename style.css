@@ -160,7 +160,7 @@ h4 {
 
 fieldset {
     display: flex;
-    gap: 4rem;
+    gap: 2rem;
     font-family: 'Tajawal';
     font-weight: 300;
 }
@@ -173,18 +173,19 @@ fieldset {
 }
 
 input {
-    width: 12rem;
+    width: 14rem;
     font-family: 'Tajawal';
     font-weight: 300;
-    font-size: 1.3rem;
-    border: #E5E7EB;
+    font-size: 1.1rem;
+    border: .3ch solid #E5E7EB;
     border-radius: .2rem;
     padding-left: 1rem;
+    margin: .2rem;
 }
 
 input:focus {
     border: 2px solid #8da3bb;
-
+    outline-offset: 0;
 }
 
 label {
