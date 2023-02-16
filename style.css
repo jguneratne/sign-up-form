@@ -203,9 +203,13 @@ input {
 }
 
 input:focus {
-    border: 2px solid #8da3bb;
-    outline-offset: 0;
+    border: #454c50;
 }
+
+/* input:focus {
+    outline: .2remorange;
+    /* outline-offset: 0; */
+ */
 
 label {
     color: #f3f5f6;
@@ -232,8 +236,10 @@ a:visited {
     color: #8da3bb
 }
 
-a:hover {
+a:hover,
+a:focus {
     text-decoration: underline;
+    outline: 0;
 }
 
 
