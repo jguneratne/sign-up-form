@@ -203,13 +203,9 @@ input {
 }
 
 input:focus {
-    border: #454c50;
+    outline: .3rem solid #454c50;
 }
 
-/* input:focus {
-    outline: .2remorange;
-    /* outline-offset: 0; */
- */
 
 label {
     color: #f3f5f6;
@@ -224,6 +220,10 @@ button {
     border-radius: 1ch;
     cursor: pointer;
     box-shadow: .2rem .2rem .3rem #909ea6;
+}
+
+button:focus {
+    outline: .3rem solid #454c50;
 }
 
 a:link {
