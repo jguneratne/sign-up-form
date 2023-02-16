@@ -191,7 +191,8 @@ fieldset {
     border: none;
 }
 
-input {
+input,
+input:required {
     width: 14rem;
     font-family: 'Tajawal';
     font-weight: 300;
@@ -206,6 +207,13 @@ input:focus {
     outline: .3rem solid #454c50;
 }
 
+input:not(:focus):not(:placeholder-shown):invalid {
+    outline: .2rem solid #ea1f1f;
+}
+
+input:not(:focus):not(:placeholder-shown):valid {
+    outline: .2rem solid #eaf069;
+}
 
 label {
     color: #f3f5f6;

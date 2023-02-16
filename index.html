@@ -21,8 +21,11 @@
             
             
             <div class="form-box">
+                
                 <h4>Let's Do This!</h4>
-                <form action="" method="post">
+
+
+                <form action="" method="post" id="personal-info">
                     <fieldset>
                         <div class="name">
                             <label for="fname">First Name:</label>
@@ -44,7 +47,7 @@
                         
                         <div class="contact">
                             <label for="phone-number">Phone Number</label>
-                            <input type="tel" id="phone-number" name="phone">
+                            <input type="tel" id="phone-number" name="phone" pattern="[/d]{7-14}">
                         </div>
                         
                     </fieldset>
@@ -52,12 +55,12 @@
                     <fieldset>
                         <div class="pword error">
                             <label for="password">Password:</label>
-                            <input type="password" id="password" name="password">
+                            <input type="password" id="password" name="password" minlength="8" maxlength="20" required>
                         </div>
                         
                         <div class="pword error">
                             <label for="confirm-password">Confirm Password:</label>
-                            <input type="password" id="confirm-password" name="password">
+                            <input type="password" id="confirm-password" name="password" minlength="8" maxlength="20" required>
                         </div>
                         
                     </fieldset>
@@ -67,9 +70,9 @@
             </div>
             
 
-            <button type="submit">Create Account</button>
+            <button type="submit" form="personal-info" value="submit">Create Account</button>
             
-            <div class="paras"><p class="login">Already have an account? Log in.</p></div>
+            <div class="paras"><p class="login">Already have an account? <a href="journey.html">Log in.</a></p></div>
         </div>
     </div>
 
