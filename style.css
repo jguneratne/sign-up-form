@@ -131,12 +131,15 @@ body {
     margin-top: 1rem;
 }
 
+.creds {
+    margin-top: auto;
+}
+
 .photo-cred {
     font-family: "Zilla Slab";
     font-weight: light;
     font-size: .7rem;
     color: white;
-    margin-top: auto;
     margin-left: .7rem;
     margin-bottom: .5rem;
 }
