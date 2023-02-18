@@ -251,6 +251,10 @@ label,
     display: inline;
 }
 
+.rules {
+    margin-left: .4rem;
+}
+
 button {
     margin-left: 2rem;
     margin-bottom: 1rem;
