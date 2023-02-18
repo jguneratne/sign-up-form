@@ -23,44 +23,47 @@
             <div class="form-box">
                 
                 <h4>Let's Do This!</h4>
-
+                <p class="req">
+                    Required fields are followed by <span aria-label="required">*</span>
+                </p>
 
                 <form action="" method="post" id="personal-info">
                     <fieldset>
                         <div class="name">
-                            <label for="fname">First Name:</label>
-                            <input type="text" id="fname" name="fname">
+                            <label for="fname">* First Name:</label>
+                            <input type="text" id="fname" name="fname" placeholder="   " required>
                         </div>
                         
                         <div class="name">
-                            <label for="lname">Last Name:</label>
-                            <input type="text" id="lname" name="lname">
+                            <label for="lname">* Last Name:</label>
+                            <input type="text" id="lname" name="lname" placeholder="   " required>
                         </div>
                         
                     </fieldset>
                     
                     <fieldset>
                         <div class="contact">
-                            <label for="user_email">Email Address:</label>
-                            <input type="email" id="user_email" name="email" placeholder="you@example.com">
+                            <label for="user_email">* Email Address:</label>
+                            <input type="email" id="user_email" name="email" placeholder="you@example.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
                         </div>
                         
                         <div class="contact">
                             <label for="phone-number">Phone Number</label>
-                            <input type="tel" id="phone-number" name="phone" pattern="[/d]{7-14}">
+                            <input type="tel" id="phone-number" name="phone" placeholder="   " minlength="7" maxlength="14">
                         </div>
                         
                     </fieldset>
                     
                     <fieldset>
-                        <div class="pword error">
-                            <label for="password">Password:</label>
-                            <input type="password" id="password" name="password" minlength="8" maxlength="20" required>
+                        <div class="pword">
+                            <label for="password">* Password:</label>
+                            <input type="password" id="password" name="password" placeholder="   " pattern="^.{8,20}$" required>
+                            <small><span class="rules">  Between 8-20 characters in length</span> </small>
                         </div>
                         
-                        <div class="pword error">
-                            <label for="confirm-password">Confirm Password:</label>
-                            <input type="password" id="confirm-password" name="password" minlength="8" maxlength="20" required>
+                        <div class="pword">
+                            <label for="confirm-password">* Confirm Password:</label>
+                            <input type="password" id="confirm-password" name="password" placeholder="   " minlength="8" maxlength="20" required>
                         </div>
                         
                     </fieldset>
@@ -77,8 +80,6 @@
     </div>
 
         
-
-
 
     <footer class="footer">
         <div class="my-info">

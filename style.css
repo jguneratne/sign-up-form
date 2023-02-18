@@ -56,7 +56,7 @@
         url(fonts/tajawal-bold-webfont.woff) format('woff');
 }
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -74,7 +74,6 @@ body {
     display: flex;
     width: 80vw;
     height: 94vmin;
-    /* border: 2px solid black; */
 }
 
 .photo-container {
@@ -82,7 +81,6 @@ body {
     flex-direction: column;
     min-width: 50%;
     height: 94vmin;
-    /* border: 2px solid purple; */
     background-color: #20b559;
     background-image: url(images/Guneratne_20190524_5005681_cropped.jpg);
     background-repeat: no-repeat;
@@ -94,7 +92,6 @@ body {
     flex-direction: column;
     min-width: 50%;
     height: 94vmin;
-    /* border: 2px solid purple; */
     background-color: #20b559;
     background-image: url(images/Guneratne_20190528_5006110_cropped.jpg);
     background-repeat: no-repeat;
@@ -129,7 +126,6 @@ body {
     width: 50%;
     height: 94vmin;
     background-color:  #f3f5f6;
-    /* border: 2px solid turquoise; */
 }
 
 .paras {
@@ -177,6 +173,14 @@ h4 {
     color: #202426;
 }
 
+.req {
+    font-family: 'Tajawal';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #202426;
+    margin-left: 2rem;
+}
+
 fieldset {
     display: flex;
     gap: 2rem;
@@ -208,15 +212,18 @@ input:focus {
 }
 
 input:not(:focus):not(:placeholder-shown):invalid {
-    outline: .2rem solid #ea1f1f;
+    outline: .2rem solid #9c3d3d;
+    background-color: #ecb2b2;
 }
 
 input:not(:focus):not(:placeholder-shown):valid {
     outline: .2rem solid #eaf069;
 }
 
-label {
+label,
+.rules {
     color: #f3f5f6;
+    display: inline;
 }
 
 button {
@@ -249,9 +256,6 @@ a:focus {
     text-decoration: underline;
     outline: 0;
 }
-
-
-
 
 
 
