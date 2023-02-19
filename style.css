@@ -88,7 +88,7 @@ body {
     flex-direction: column;
     min-width: 50%;
     height: 94vmin;
-    background-color: #8b9166;
+    background-color: #8b9166;;
     background-image: url(images/Guneratne_20190524_5005681_cropped.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -99,7 +99,7 @@ body {
     flex-direction: column;
     min-width: 50%;
     height: 94vmin;
-    background-color: #20b559;
+    background-color: #8b9166;
     background-image: url(images/Guneratne_20190528_5006110_cropped.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -189,7 +189,6 @@ body {
     flex-direction: column;
     flex: 1 1 auto;
     flex-wrap: wrap;
-    width: 0;
 }
 
 .login {
@@ -218,6 +217,7 @@ fieldset {
     gap: 2rem;
     font-family: 'Tajawal', Arial, Helvetica, sans-serif;
     font-weight: 300;
+    flex-wrap: wrap;
 }
 
 h4,
