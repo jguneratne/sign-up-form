@@ -169,6 +169,9 @@ body {
 
 .form-box,
 .text-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     background-color:  #8b9166;
     height: min-content;
     width: 100%;
