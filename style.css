@@ -125,7 +125,7 @@ body {
 }
 
 .logo-text {
-    font-family: 'Poiret One';
+    font-family: 'Poiret One', Arial, Helvetica, sans-serif;
     font-size: 3rem;
     color: rgba(243, 245, 246, .8);
     margin-top: 1rem;
@@ -136,7 +136,7 @@ body {
 }
 
 .photo-cred {
-    font-family: "Zilla Slab";
+    font-family: "Zilla Slab", Arial, Helvetica, sans-serif;
     font-weight: light;
     font-size: .7rem;
     color: white;
@@ -158,7 +158,7 @@ body {
 .paras {
     margin-left: 2rem;
     width: 40ch;
-    font-family: 'Zilla Slab';
+    font-family: 'Zilla Slab', Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 1.1rem;
 }
@@ -197,14 +197,14 @@ body {
 }
 
 h4 {
-    font-family: 'Tajawal';
+    font-family: 'Tajawal', Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-size: 1.2rem;
     color: #202426;
 }
 
 .req {
-    font-family: 'Tajawal';
+    font-family: 'Tajawal', Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 1rem;
     color: #202426;
@@ -216,7 +216,7 @@ fieldset {
     display: flex;
     flex-shrink: 1;
     gap: 2rem;
-    font-family: 'Tajawal';
+    font-family: 'Tajawal', Arial, Helvetica, sans-serif;
     font-weight: 300;
 }
 
@@ -230,7 +230,7 @@ fieldset {
 input,
 input:required {
     width: 14rem;
-    font-family: 'Tajawal';
+    font-family: 'Tajawal', Arial, Helvetica, sans-serif;
     font-weight: 300;
     font-size: 1.1rem;
     border: .3ch solid #E5E7EB;
@@ -298,9 +298,8 @@ a:focus {
 .footer {
     height: 2.5rem;
     background-color: #d6d7dc;
-    font-family: sans-serif;
     text-align: center;
-    font-family: 'Zilla Slab';
+    font-family: 'Zilla Slab', Arial, Helvetica, sans-serif;
     font-style: light;
     font-size: 1rem;
     margin-top: auto;
