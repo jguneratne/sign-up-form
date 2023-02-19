@@ -74,20 +74,25 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 1;
     background-color: #8da3bb;
 }
 
 .layout {
     display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-shrink: 1;
     width: 80vw;
-    height: 94vmin;
+    min-height: auto;
 }
 
 .photo-container {
     display: flex;
     flex-direction: column;
+    flex-shrink: 1;
     min-width: 50%;
-    height: 94vmin;
+    min-height: auto;
     background-color: #8b9166;;
     background-image: url(images/Guneratne_20190524_5005681_cropped.jpg);
     background-repeat: no-repeat;
@@ -97,8 +102,9 @@ body {
 .photo-container2 {
     display: flex;
     flex-direction: column;
+    flex-shrink: 1;
     min-width: 50%;
-    height: 94vmin;
+    min-height: auto;
     background-color: #8b9166;
     background-image: url(images/Guneratne_20190528_5006110_cropped.jpg);
     background-repeat: no-repeat;
@@ -150,14 +156,18 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    width: 50%;
-    height: 94vmin;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    max-width: 50%;
+    min-height: auto;
     background-color:  #f3f5f6;
 }
 
 .paras {
-    margin-left: 2rem;
-    width: 40ch;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+    padding-right: 2rem;
     font-family: 'Zilla Slab', Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 1.1rem;
@@ -172,12 +182,14 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    flex-shrink: 1;
     background-color:  #8b9166;
     height: min-content;
     width: 100%;
     margin-top: 1.2rem;
     margin-bottom: 1.5rem;
     padding-bottom: 1.5rem;
+    padding-right: 1rem;
     box-shadow: 0 .2rem .3rem #51553b;
 }
 
@@ -210,22 +222,22 @@ h4 {
     font-weight: 400;
     font-size: 1rem;
     color: #202426;
-    margin-left: 2rem;
+    margin-left: 1rem;
     margin-top: -.4rem;
 }
 
 fieldset {
     display: flex;
     flex-shrink: 1;
-    gap: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
     font-family: 'Tajawal', Arial, Helvetica, sans-serif;
     font-weight: 300;
-    flex-wrap: wrap;
 }
 
 h4,
 fieldset {
-    margin-left: 2rem;
+    margin-left: 1rem;
     padding-top: 1rem;
     border: none;
 }
@@ -266,7 +278,7 @@ label,
 }
 
 button {
-    margin-left: 2rem;
+    margin-left: 1rem;
     margin-bottom: 1rem;
     background-color: #d6d7dc;
     padding: .5rem; 
@@ -299,6 +311,9 @@ a:focus {
 
 
 .footer {
+    display: flex;
+    flex-direction: column;
+    flex: 0;
     height: 2.5rem;
     background-color: #d6d7dc;
     text-align: center;
@@ -310,11 +325,11 @@ a:focus {
 
 }
 
-.my-info,
-.imgAttrib {
+.my-info {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     width: 100%;
     height: 2.5rem;
 }
