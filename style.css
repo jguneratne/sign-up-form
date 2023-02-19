@@ -187,6 +187,9 @@ body {
 .pword {
     display: flex;
     flex-direction: column;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    width: 0;
 }
 
 .login {
@@ -211,6 +214,7 @@ h4 {
 
 fieldset {
     display: flex;
+    flex-shrink: 1;
     gap: 2rem;
     font-family: 'Tajawal';
     font-weight: 300;
