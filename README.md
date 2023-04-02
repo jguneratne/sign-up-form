@@ -7,4 +7,4 @@ Date started: February 12, 2023
 Date completed: February 19th, 2023
 
 
-The layout for this page is not fully responsive, and I plan to return to it when I know more about responsive design. 
+The layout for this page is not fully responsive, and I plan to return to it when I know more about responsive design. I may also add Javascript form validation in the future as well. 
